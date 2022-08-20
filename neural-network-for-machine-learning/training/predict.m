@@ -1,0 +1,1 @@
+function predictions = predict(W1,W2, X)z1 = X*W1;a1 = 1./(1+exp(-z1));z2 = a1 * W2;predictions = z2;endfunction
